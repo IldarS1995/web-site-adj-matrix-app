@@ -1,0 +1,530 @@
+01:15:16.609 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Building adjacent matrix...
+01:15:16.617 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_Corporation.
+01:15:18.365 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #0, page https://en.wikipedia.org/wiki/Oracle_Corporation, retrieved 876 pages from the website.
+01:15:18.399 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #0, current web-page list fill is 100.
+01:15:18.399 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/File:Oracle_logo.svg.
+01:15:18.475 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #1, page https://en.wikipedia.org/wiki/File:Oracle_logo.svg, retrieved 101 pages from the website.
+01:15:18.495 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #1, current web-page list fill is 100.
+01:15:18.499 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/File:Oracle-October2011.JPG.
+01:15:18.598 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #2, page https://en.wikipedia.org/wiki/File:Oracle-October2011.JPG, retrieved 94 pages from the website.
+01:15:18.599 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #2, current web-page list fill is 100.
+01:15:18.599 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Redwood_Shores,_California.
+01:15:18.668 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #3, page https://en.wikipedia.org/wiki/Redwood_Shores,_California, retrieved 118 pages from the website.
+01:15:18.669 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #3, current web-page list fill is 100.
+01:15:18.669 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Types_of_business_entity.
+01:15:18.981 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #4, page https://en.wikipedia.org/wiki/Types_of_business_entity, retrieved 1100 pages from the website.
+01:15:18.991 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #4, current web-page list fill is 100.
+01:15:18.991 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Public_company.
+01:15:19.064 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #5, page https://en.wikipedia.org/wiki/Public_company, retrieved 88 pages from the website.
+01:15:19.065 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #5, current web-page list fill is 100.
+01:15:19.065 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Ticker_symbol.
+01:15:19.135 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #6, page https://en.wikipedia.org/wiki/Ticker_symbol, retrieved 191 pages from the website.
+01:15:19.136 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #6, current web-page list fill is 100.
+01:15:19.136 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/New_York_Stock_Exchange.
+01:15:19.384 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #7, page https://en.wikipedia.org/wiki/New_York_Stock_Exchange, retrieved 643 pages from the website.
+01:15:19.392 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #7, current web-page list fill is 100.
+01:15:19.392 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/S%26P_100.
+01:15:19.460 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in query at index 30: https://finance.yahoo.com/q?s=^OEX
+01:15:19.461 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #8, page https://en.wikipedia.org/wiki/S%26P_100, retrieved 142 pages from the website.
+01:15:19.463 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #8, current web-page list fill is 100.
+01:15:19.463 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/S%26P_500.
+01:15:19.602 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 45: https://en.wikipedia.org/wiki/S%26P_500_Index","wgWikibaseItemId":"Q242345","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:19.610 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in query at index 30: https://finance.yahoo.com/q?s=^GSPC
+01:15:19.611 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in query at index 30: https://finance.yahoo.com/q?s=^GSPC
+01:15:19.612 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #9, page https://en.wikipedia.org/wiki/S%26P_500, retrieved 192 pages from the website.
+01:15:19.613 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #9, current web-page list fill is 100.
+01:15:19.613 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Enterprise_software.
+01:15:19.682 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #10, page https://en.wikipedia.org/wiki/Enterprise_software, retrieved 86 pages from the website.
+01:15:19.683 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #10, current web-page list fill is 100.
+01:15:19.683 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Cloud_Computing.
+01:15:19.933 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 45: https://en.wikipedia.org/wiki/Cloud_computing","wgWikibaseItemId":"Q483639","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:19.941 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #11, page https://en.wikipedia.org/wiki/Cloud_Computing, retrieved 518 pages from the website.
+01:15:19.943 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #11, current web-page list fill is 100.
+01:15:19.943 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Santa_Clara,_California.
+01:15:20.212 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #12, page https://en.wikipedia.org/wiki/Santa_Clara,_California, retrieved 1137 pages from the website.
+01:15:20.217 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #12, current web-page list fill is 100.
+01:15:20.217 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Larry_Ellison.
+01:15:20.466 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #13, page https://en.wikipedia.org/wiki/Larry_Ellison, retrieved 680 pages from the website.
+01:15:20.471 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #13, current web-page list fill is 100.
+01:15:20.472 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Bob_Miner.
+01:15:20.538 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #14, page https://en.wikipedia.org/wiki/Bob_Miner, retrieved 136 pages from the website.
+01:15:20.539 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #14, current web-page list fill is 100.
+01:15:20.539 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Ed_Oates.
+01:15:20.605 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #15, page https://en.wikipedia.org/wiki/Ed_Oates, retrieved 57 pages from the website.
+01:15:20.606 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #15, current web-page list fill is 100.
+01:15:20.606 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Redwood_City,_California.
+01:15:20.802 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #16, page https://en.wikipedia.org/wiki/Redwood_City,_California, retrieved 912 pages from the website.
+01:15:20.807 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #16, current web-page list fill is 100.
+01:15:20.807 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Jeffrey_O._Henley.
+01:15:20.888 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 41: https://en.wikipedia.org/wiki/Jeff_Henley","wgWikibaseItemId":"Q6176194","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:20.890 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #17, page https://en.wikipedia.org/wiki/Jeffrey_O._Henley, retrieved 128 pages from the website.
+01:15:20.891 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #17, current web-page list fill is 100.
+01:15:20.891 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Safra_A._Catz.
+01:15:20.962 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #18, page https://en.wikipedia.org/wiki/Safra_A._Catz, retrieved 234 pages from the website.
+01:15:20.964 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #18, current web-page list fill is 100.
+01:15:20.964 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Mark_Hurd.
+01:15:21.092 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #19, page https://en.wikipedia.org/wiki/Mark_Hurd, retrieved 276 pages from the website.
+01:15:21.100 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #19, current web-page list fill is 100.
+01:15:21.100 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_Applications.
+01:15:21.169 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #20, page https://en.wikipedia.org/wiki/Oracle_Applications, retrieved 109 pages from the website.
+01:15:21.169 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #20, current web-page list fill is 100.
+01:15:21.169 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_Database.
+01:15:21.425 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in fragment at index 81: https://web.archive.org/web/20080116210119/http://www.orafaq.com/faqora.htm#SCOTT#SCOTT
+01:15:21.428 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #21, page https://en.wikipedia.org/wiki/Oracle_Database, retrieved 535 pages from the website.
+01:15:21.430 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #21, current web-page list fill is 100.
+01:15:21.430 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_Enterprise_Manager.
+01:15:21.497 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #22, page https://en.wikipedia.org/wiki/Oracle_Enterprise_Manager, retrieved 65 pages from the website.
+01:15:21.497 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #22, current web-page list fill is 100.
+01:15:21.497 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_Fusion_Middleware.
+01:15:21.571 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #23, page https://en.wikipedia.org/wiki/Oracle_Fusion_Middleware, retrieved 193 pages from the website.
+01:15:21.572 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #23, current web-page list fill is 100.
+01:15:21.573 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Server_(computing).
+01:15:21.755 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #24, page https://en.wikipedia.org/wiki/Server_(computing), retrieved 312 pages from the website.
+01:15:21.757 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #24, current web-page list fill is 100.
+01:15:21.758 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Workstation.
+01:15:21.890 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #25, page https://en.wikipedia.org/wiki/Workstation, retrieved 332 pages from the website.
+01:15:21.892 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #25, current web-page list fill is 100.
+01:15:21.892 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Computer_data_storage.
+01:15:22.077 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #26, page https://en.wikipedia.org/wiki/Computer_data_storage, retrieved 457 pages from the website.
+01:15:22.079 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #26, current web-page list fill is 100.
+01:15:22.079 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_Corporation#Products_and_services.
+01:15:22.446 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #27, page https://en.wikipedia.org/wiki/Oracle_Corporation#Products_and_services, retrieved 876 pages from the website.
+01:15:22.448 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #27, current web-page list fill is 100.
+01:15:22.449 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/United_States_dollar.
+01:15:22.897 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #28, page https://en.wikipedia.org/wiki/United_States_dollar, retrieved 1586 pages from the website.
+01:15:22.905 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #28, current web-page list fill is 100.
+01:15:22.905 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Earnings_before_interest_and_taxes.
+01:15:22.972 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #29, page https://en.wikipedia.org/wiki/Earnings_before_interest_and_taxes, retrieved 131 pages from the website.
+01:15:22.973 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #29, current web-page list fill is 100.
+01:15:22.973 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Net_income.
+01:15:23.043 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #30, page https://en.wikipedia.org/wiki/Net_income, retrieved 179 pages from the website.
+01:15:23.044 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #30, current web-page list fill is 100.
+01:15:23.044 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Asset.
+01:15:23.163 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #31, page https://en.wikipedia.org/wiki/Asset, retrieved 202 pages from the website.
+01:15:23.164 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #31, current web-page list fill is 100.
+01:15:23.164 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Equity_(finance).
+01:15:23.232 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #32, page https://en.wikipedia.org/wiki/Equity_(finance), retrieved 201 pages from the website.
+01:15:23.233 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #32, current web-page list fill is 100.
+01:15:23.233 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Subsidiary.
+01:15:23.300 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #33, page https://en.wikipedia.org/wiki/Subsidiary, retrieved 114 pages from the website.
+01:15:23.300 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #33, current web-page list fill is 100.
+01:15:23.300 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/List_of_acquisitions_by_Oracle.
+01:15:23.440 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #34, page https://en.wikipedia.org/wiki/List_of_acquisitions_by_Oracle, retrieved 235 pages from the website.
+01:15:23.441 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #34, current web-page list fill is 100.
+01:15:23.441 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/File:Larry_Ellison_on_stage.jpg.
+01:15:23.506 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #35, page https://en.wikipedia.org/wiki/File:Larry_Ellison_on_stage.jpg, retrieved 99 pages from the website.
+01:15:23.507 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #35, current web-page list fill is 100.
+01:15:23.507 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Multinational_corporation.
+01:15:23.634 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #36, page https://en.wikipedia.org/wiki/Multinational_corporation, retrieved 103 pages from the website.
+01:15:23.634 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #36, current web-page list fill is 100.
+01:15:23.634 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Database.
+01:15:23.883 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #37, page https://en.wikipedia.org/wiki/Database, retrieved 660 pages from the website.
+01:15:23.884 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #37, current web-page list fill is 100.
+01:15:23.884 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Cloud_computing.
+01:15:24.140 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #38, page https://en.wikipedia.org/wiki/Cloud_computing, retrieved 518 pages from the website.
+01:15:24.142 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #38, current web-page list fill is 100.
+01:15:24.142 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/List_of_the_largest_software_companies.
+01:15:24.263 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #39, page https://en.wikipedia.org/wiki/List_of_the_largest_software_companies, retrieved 420 pages from the website.
+01:15:24.264 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #39, current web-page list fill is 100.
+01:15:24.264 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Microsoft.
+01:15:24.657 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #40, page https://en.wikipedia.org/wiki/Microsoft, retrieved 1334 pages from the website.
+01:15:24.661 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #40, current web-page list fill is 100.
+01:15:24.661 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Enterprise_resource_planning.
+01:15:24.851 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #41, page https://en.wikipedia.org/wiki/Enterprise_resource_planning, retrieved 446 pages from the website.
+01:15:24.853 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #41, current web-page list fill is 100.
+01:15:24.853 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Customer_relationship_management.
+01:15:25.108 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #42, page https://en.wikipedia.org/wiki/Customer_relationship_management, retrieved 436 pages from the website.
+01:15:25.110 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #42, current web-page list fill is 100.
+01:15:25.111 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Supply_chain_management.
+01:15:25.352 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #43, page https://en.wikipedia.org/wiki/Supply_chain_management, retrieved 632 pages from the website.
+01:15:25.354 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #43, current web-page list fill is 100.
+01:15:25.354 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Edgar_F._Codd.
+01:15:25.482 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #44, page https://en.wikipedia.org/wiki/Edgar_F._Codd, retrieved 267 pages from the website.
+01:15:25.483 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #44, current web-page list fill is 100.
+01:15:25.484 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Relational_database_management_system.
+01:15:25.561 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #45, page https://en.wikipedia.org/wiki/Relational_database_management_system, retrieved 104 pages from the website.
+01:15:25.562 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #45, current web-page list fill is 100.
+01:15:25.562 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/IBM_System_R.
+01:15:25.630 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #46, page https://en.wikipedia.org/wiki/IBM_System_R, retrieved 59 pages from the website.
+01:15:25.630 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #46, current web-page list fill is 100.
+01:15:25.630 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/C_(programming_language).
+01:15:25.905 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #47, page https://en.wikipedia.org/wiki/C_(programming_language), retrieved 852 pages from the website.
+01:15:25.910 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #47, current web-page list fill is 100.
+01:15:25.910 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Operating_systems.
+01:15:26.168 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 46: https://en.wikipedia.org/wiki/Operating_system","wgWikibaseItemId":"Q9135","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:26.179 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #48, page https://en.wikipedia.org/wiki/Operating_systems, retrieved 1013 pages from the website.
+01:15:26.183 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #48, current web-page list fill is 100.
+01:15:26.183 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/SQL.
+01:15:26.435 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #49, page https://en.wikipedia.org/wiki/SQL, retrieved 995 pages from the website.
+01:15:26.438 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #49, current web-page list fill is 100.
+01:15:26.438 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/RDBMS.
+01:15:26.504 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 67: https://en.wikipedia.org/wiki/Relational_database_management_system","wgWikibaseItemId":"Q3932296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:26.505 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #50, page https://en.wikipedia.org/wiki/RDBMS, retrieved 104 pages from the website.
+01:15:26.506 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #50, current web-page list fill is 100.
+01:15:26.506 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/VAX.
+01:15:26.640 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #51, page https://en.wikipedia.org/wiki/VAX, retrieved 552 pages from the website.
+01:15:26.645 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #51, current web-page list fill is 100.
+01:15:26.646 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/64-bit_computing.
+01:15:26.836 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #52, page https://en.wikipedia.org/wiki/64-bit_computing, retrieved 723 pages from the website.
+01:15:26.839 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #52, current web-page list fill is 100.
+01:15:26.840 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/XML.
+01:15:27.032 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #53, page https://en.wikipedia.org/wiki/XML, retrieved 669 pages from the website.
+01:15:27.036 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #53, current web-page list fill is 100.
+01:15:27.036 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/TPC-H.
+01:15:27.106 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 72: https://en.wikipedia.org/wiki/Transaction_Processing_Performance_Council","wgWikibaseItemId":"Q2005480","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:27.108 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #54, page https://en.wikipedia.org/wiki/TPC-H, retrieved 85 pages from the website.
+01:15:27.108 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #54, current web-page list fill is 100.
+01:15:27.108 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_Application_Server.
+01:15:27.264 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #55, page https://en.wikipedia.org/wiki/Oracle_Application_Server, retrieved 102 pages from the website.
+01:15:27.265 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #55, current web-page list fill is 100.
+01:15:27.265 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Java_EE.
+01:15:27.391 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 63: https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition","wgWikibaseItemId":"Q193247","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:27.393 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #56, page https://en.wikipedia.org/wiki/Java_EE, retrieved 257 pages from the website.
+01:15:27.394 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #56, current web-page list fill is 100.
+01:15:27.394 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/World_Wide_Web.
+01:15:27.638 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in authority at index 7: http://<
+01:15:27.639 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in authority at index 8: https://<
+01:15:27.639 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in authority at index 7: http:// 
+01:15:27.652 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #57, page https://en.wikipedia.org/wiki/World_Wide_Web, retrieved 699 pages from the website.
+01:15:27.654 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #57, current web-page list fill is 100.
+01:15:27.654 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Three-tier_(computing).
+01:15:27.726 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in fragment at index 76: https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture","wgWikibaseItemId":"Q1052721","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:27.729 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #58, page https://en.wikipedia.org/wiki/Three-tier_(computing), retrieved 218 pages from the website.
+01:15:27.735 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #58, current web-page list fill is 100.
+01:15:27.735 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Grid_computing.
+01:15:27.871 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #59, page https://en.wikipedia.org/wiki/Grid_computing, retrieved 399 pages from the website.
+01:15:27.874 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #59, current web-page list fill is 100.
+01:15:27.874 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Wikipedia:Citation_needed.
+01:15:27.942 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #60, page https://en.wikipedia.org/wiki/Wikipedia:Citation_needed, retrieved 240 pages from the website.
+01:15:27.943 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #60, current web-page list fill is 100.
+01:15:27.943 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Java_(programming_language).
+01:15:28.190 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 37: http://www.w3.org/TR/html4/strict.dtd"&gt
+01:15:28.199 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #61, page https://en.wikipedia.org/wiki/Java_(programming_language), retrieved 786 pages from the website.
+01:15:28.209 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #61, current web-page list fill is 100.
+01:15:28.209 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Stored_procedure.
+01:15:28.281 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #62, page https://en.wikipedia.org/wiki/Stored_procedure, retrieved 147 pages from the website.
+01:15:28.282 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #62, current web-page list fill is 100.
+01:15:28.282 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/PL/SQL.
+01:15:28.462 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #63, page https://en.wikipedia.org/wiki/PL/SQL, retrieved 208 pages from the website.
+01:15:28.463 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #63, current web-page list fill is 100.
+01:15:28.463 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions.
+01:15:28.646 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #64, page https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions, retrieved 340 pages from the website.
+01:15:28.647 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #64, current web-page list fill is 100.
+01:15:28.647 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Berkeley_DB.
+01:15:28.771 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #65, page https://en.wikipedia.org/wiki/Berkeley_DB, retrieved 275 pages from the website.
+01:15:28.772 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #65, current web-page list fill is 100.
+01:15:28.772 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Embedded_database.
+01:15:28.897 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #66, page https://en.wikipedia.org/wiki/Embedded_database, retrieved 220 pages from the website.
+01:15:28.898 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #66, current web-page list fill is 100.
+01:15:28.898 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_Rdb.
+01:15:28.965 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #67, page https://en.wikipedia.org/wiki/Oracle_Rdb, retrieved 122 pages from the website.
+01:15:28.966 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #67, current web-page list fill is 100.
+01:15:28.966 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/OpenVMS.
+01:15:29.150 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #68, page https://en.wikipedia.org/wiki/OpenVMS, retrieved 446 pages from the website.
+01:15:29.151 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #68, current web-page list fill is 100.
+01:15:29.151 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Digital_Equipment_Corporation.
+01:15:29.279 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #69, page https://en.wikipedia.org/wiki/Digital_Equipment_Corporation, retrieved 370 pages from the website.
+01:15:29.281 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #69, current web-page list fill is 100.
+01:15:29.281 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/TimesTen.
+01:15:29.405 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #70, page https://en.wikipedia.org/wiki/TimesTen, retrieved 178 pages from the website.
+01:15:29.406 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #70, current web-page list fill is 100.
+01:15:29.406 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Essbase.
+01:15:29.528 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #71, page https://en.wikipedia.org/wiki/Essbase, retrieved 207 pages from the website.
+01:15:29.529 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #71, current web-page list fill is 100.
+01:15:29.529 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Hyperion_Solutions.
+01:15:29.597 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 45: https://en.wikipedia.org/wiki/Oracle_Hyperion","wgWikibaseItemId":"Q1431991","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:29.598 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #72, page https://en.wikipedia.org/wiki/Hyperion_Solutions, retrieved 153 pages from the website.
+01:15:29.599 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #72, current web-page list fill is 100.
+01:15:29.599 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Multidimensional_database.
+01:15:29.728 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in fragment at index 85: https://en.wikipedia.org/wiki/Online_analytical_processing#Multidimensional_databases","wgWikibaseItemId":"Q642514","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:29.730 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #73, page https://en.wikipedia.org/wiki/Multidimensional_database, retrieved 216 pages from the website.
+01:15:29.730 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #73, current web-page list fill is 100.
+01:15:29.730 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/MySQL.
+01:15:29.980 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #74, page https://en.wikipedia.org/wiki/MySQL, retrieved 502 pages from the website.
+01:15:29.983 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #74, current web-page list fill is 100.
+01:15:29.983 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/GNU_General_Public_License.
+01:15:30.296 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #75, page https://en.wikipedia.org/wiki/GNU_General_Public_License, retrieved 568 pages from the website.
+01:15:30.297 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #75, current web-page list fill is 100.
+01:15:30.297 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/MySQL_AB.
+01:15:30.364 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #76, page https://en.wikipedia.org/wiki/MySQL_AB, retrieved 109 pages from the website.
+01:15:30.364 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #76, current web-page list fill is 100.
+01:15:30.364 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/NoSQL.
+01:15:30.495 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #77, page https://en.wikipedia.org/wiki/NoSQL, retrieved 401 pages from the website.
+01:15:30.496 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #77, current web-page list fill is 100.
+01:15:30.496 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Middleware.
+01:15:30.566 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #78, page https://en.wikipedia.org/wiki/Middleware, retrieved 273 pages from the website.
+01:15:30.567 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #78, current web-page list fill is 100.
+01:15:30.567 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Application_server.
+01:15:30.687 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #79, page https://en.wikipedia.org/wiki/Application_server, retrieved 242 pages from the website.
+01:15:30.688 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #79, current web-page list fill is 100.
+01:15:30.688 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/System_integration.
+01:15:30.754 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #80, page https://en.wikipedia.org/wiki/System_integration, retrieved 125 pages from the website.
+01:15:30.754 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #80, current web-page list fill is 100.
+01:15:30.754 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Business_process_management.
+01:15:30.875 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #81, page https://en.wikipedia.org/wiki/Business_process_management, retrieved 146 pages from the website.
+01:15:30.876 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #81, current web-page list fill is 100.
+01:15:30.876 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Content_management.
+01:15:30.996 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #82, page https://en.wikipedia.org/wiki/Content_management, retrieved 327 pages from the website.
+01:15:30.997 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #82, current web-page list fill is 100.
+01:15:30.997 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Identity_management.
+01:15:31.116 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #83, page https://en.wikipedia.org/wiki/Identity_management, retrieved 154 pages from the website.
+01:15:31.116 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #83, current web-page list fill is 100.
+01:15:31.116 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Business_intelligence.
+01:15:31.295 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #84, page https://en.wikipedia.org/wiki/Business_intelligence, retrieved 415 pages from the website.
+01:15:31.296 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #84, current web-page list fill is 100.
+01:15:31.296 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Enterprise_search.
+01:15:31.363 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #85, page https://en.wikipedia.org/wiki/Enterprise_search, retrieved 108 pages from the website.
+01:15:31.363 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #85, current web-page list fill is 100.
+01:15:31.363 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Content_management_systems.
+01:15:31.430 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 55: https://en.wikipedia.org/wiki/Content_management_system","wgWikibaseItemId":"Q131093","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:31.432 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #86, page https://en.wikipedia.org/wiki/Content_management_systems, retrieved 175 pages from the website.
+01:15:31.433 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #86, current web-page list fill is 100.
+01:15:31.433 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_Beehive.
+01:15:31.498 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #87, page https://en.wikipedia.org/wiki/Oracle_Beehive, retrieved 78 pages from the website.
+01:15:31.498 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #87, current web-page list fill is 100.
+01:15:31.498 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Collaboration_software.
+01:15:31.619 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 52: https://en.wikipedia.org/wiki/Collaborative_software","wgWikibaseItemId":"Q474157","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:31.620 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #88, page https://en.wikipedia.org/wiki/Collaboration_software, retrieved 175 pages from the website.
+01:15:31.621 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #88, current web-page list fill is 100.
+01:15:31.621 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Team.
+01:15:31.747 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #89, page https://en.wikipedia.org/wiki/Team, retrieved 172 pages from the website.
+01:15:31.748 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #89, current web-page list fill is 100.
+01:15:31.748 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Wiki.
+01:15:31.943 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #90, page https://en.wikipedia.org/wiki/Wiki, retrieved 417 pages from the website.
+01:15:31.944 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #90, current web-page list fill is 100.
+01:15:31.945 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Software_as_a_service.
+01:15:32.077 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #91, page https://en.wikipedia.org/wiki/Software_as_a_service, retrieved 244 pages from the website.
+01:15:32.078 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #91, current web-page list fill is 100.
+01:15:32.078 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Business_application.
+01:15:32.147 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 47: https://en.wikipedia.org/wiki/Business_software","wgWikibaseItemId":"Q1932945","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:32.150 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #92, page https://en.wikipedia.org/wiki/Business_application, retrieved 222 pages from the website.
+01:15:32.152 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #92, current web-page list fill is 100.
+01:15:32.152 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_E-Business_Suite.
+01:15:32.218 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in fragment at index 73: https://en.wikipedia.org/wiki/Oracle_Applications#Oracle_E-Business_Suite","wgWikibaseItemId":"Q3884304","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:32.220 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #93, page https://en.wikipedia.org/wiki/Oracle_E-Business_Suite, retrieved 109 pages from the website.
+01:15:32.220 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #93, current web-page list fill is 100.
+01:15:32.220 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Human_Resource_Management_Systems.
+01:15:32.286 [main] WARN com.kpfu.ildar.util.LinkRetriever - Illegal character in path at index 62: https://en.wikipedia.org/wiki/Human_resource_management_system","wgWikibaseItemId":"Q2072225","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false
+01:15:32.287 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #94, page https://en.wikipedia.org/wiki/Human_Resource_Management_Systems, retrieved 67 pages from the website.
+01:15:32.287 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #94, current web-page list fill is 100.
+01:15:32.287 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Vertical_market.
+01:15:32.350 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #95, page https://en.wikipedia.org/wiki/Vertical_market, retrieved 86 pages from the website.
+01:15:32.351 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #95, current web-page list fill is 100.
+01:15:32.351 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Oracle_Fusion_Applications.
+01:15:32.416 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #96, page https://en.wikipedia.org/wiki/Oracle_Fusion_Applications, retrieved 58 pages from the website.
+01:15:32.416 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #96, current web-page list fill is 100.
+01:15:32.416 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Business.
+01:15:32.554 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #97, page https://en.wikipedia.org/wiki/Business, retrieved 613 pages from the website.
+01:15:32.560 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #97, current web-page list fill is 100.
+01:15:32.560 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/Wikipedia:Verifiability.
+01:15:32.742 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #98, page https://en.wikipedia.org/wiki/Wikipedia:Verifiability, retrieved 363 pages from the website.
+01:15:32.744 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #98, current web-page list fill is 100.
+01:15:32.744 [main] INFO com.kpfu.ildar.util.LinkRetriever - Retrieving links for the web page https://en.wikipedia.org/wiki/PeopleSoft.
+01:15:32.867 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Stage #99, page https://en.wikipedia.org/wiki/PeopleSoft, retrieved 203 pages from the website.
+01:15:32.868 [main] INFO com.kpfu.ildar.algorithm.AdjacentMatrixBuilder - Finished stage #99, current web-page list fill is 100.
+The initial web site is https://en.wikipedia.org/wiki/Oracle_Corporation
+Indexes of web-pages in the matrix:
+0 -> https://en.wikipedia.org/wiki/Oracle_Corporation
+1 -> https://en.wikipedia.org/wiki/File:Oracle_logo.svg
+2 -> https://en.wikipedia.org/wiki/File:Oracle-October2011.JPG
+3 -> https://en.wikipedia.org/wiki/Redwood_Shores,_California
+4 -> https://en.wikipedia.org/wiki/Types_of_business_entity
+5 -> https://en.wikipedia.org/wiki/Public_company
+6 -> https://en.wikipedia.org/wiki/Ticker_symbol
+7 -> https://en.wikipedia.org/wiki/New_York_Stock_Exchange
+8 -> https://en.wikipedia.org/wiki/S%26P_100
+9 -> https://en.wikipedia.org/wiki/S%26P_500
+10 -> https://en.wikipedia.org/wiki/Enterprise_software
+11 -> https://en.wikipedia.org/wiki/Cloud_Computing
+12 -> https://en.wikipedia.org/wiki/Santa_Clara,_California
+13 -> https://en.wikipedia.org/wiki/Larry_Ellison
+14 -> https://en.wikipedia.org/wiki/Bob_Miner
+15 -> https://en.wikipedia.org/wiki/Ed_Oates
+16 -> https://en.wikipedia.org/wiki/Redwood_City,_California
+17 -> https://en.wikipedia.org/wiki/Jeffrey_O._Henley
+18 -> https://en.wikipedia.org/wiki/Safra_A._Catz
+19 -> https://en.wikipedia.org/wiki/Mark_Hurd
+20 -> https://en.wikipedia.org/wiki/Oracle_Applications
+21 -> https://en.wikipedia.org/wiki/Oracle_Database
+22 -> https://en.wikipedia.org/wiki/Oracle_Enterprise_Manager
+23 -> https://en.wikipedia.org/wiki/Oracle_Fusion_Middleware
+24 -> https://en.wikipedia.org/wiki/Server_(computing)
+25 -> https://en.wikipedia.org/wiki/Workstation
+26 -> https://en.wikipedia.org/wiki/Computer_data_storage
+27 -> https://en.wikipedia.org/wiki/Oracle_Corporation#Products_and_services
+28 -> https://en.wikipedia.org/wiki/United_States_dollar
+29 -> https://en.wikipedia.org/wiki/Earnings_before_interest_and_taxes
+30 -> https://en.wikipedia.org/wiki/Net_income
+31 -> https://en.wikipedia.org/wiki/Asset
+32 -> https://en.wikipedia.org/wiki/Equity_(finance)
+33 -> https://en.wikipedia.org/wiki/Subsidiary
+34 -> https://en.wikipedia.org/wiki/List_of_acquisitions_by_Oracle
+35 -> https://en.wikipedia.org/wiki/File:Larry_Ellison_on_stage.jpg
+36 -> https://en.wikipedia.org/wiki/Multinational_corporation
+37 -> https://en.wikipedia.org/wiki/Database
+38 -> https://en.wikipedia.org/wiki/Cloud_computing
+39 -> https://en.wikipedia.org/wiki/List_of_the_largest_software_companies
+40 -> https://en.wikipedia.org/wiki/Microsoft
+41 -> https://en.wikipedia.org/wiki/Enterprise_resource_planning
+42 -> https://en.wikipedia.org/wiki/Customer_relationship_management
+43 -> https://en.wikipedia.org/wiki/Supply_chain_management
+44 -> https://en.wikipedia.org/wiki/Edgar_F._Codd
+45 -> https://en.wikipedia.org/wiki/Relational_database_management_system
+46 -> https://en.wikipedia.org/wiki/IBM_System_R
+47 -> https://en.wikipedia.org/wiki/C_(programming_language)
+48 -> https://en.wikipedia.org/wiki/Operating_systems
+49 -> https://en.wikipedia.org/wiki/SQL
+50 -> https://en.wikipedia.org/wiki/RDBMS
+51 -> https://en.wikipedia.org/wiki/VAX
+52 -> https://en.wikipedia.org/wiki/64-bit_computing
+53 -> https://en.wikipedia.org/wiki/XML
+54 -> https://en.wikipedia.org/wiki/TPC-H
+55 -> https://en.wikipedia.org/wiki/Oracle_Application_Server
+56 -> https://en.wikipedia.org/wiki/Java_EE
+57 -> https://en.wikipedia.org/wiki/World_Wide_Web
+58 -> https://en.wikipedia.org/wiki/Three-tier_(computing)
+59 -> https://en.wikipedia.org/wiki/Grid_computing
+60 -> https://en.wikipedia.org/wiki/Wikipedia:Citation_needed
+61 -> https://en.wikipedia.org/wiki/Java_(programming_language)
+62 -> https://en.wikipedia.org/wiki/Stored_procedure
+63 -> https://en.wikipedia.org/wiki/PL/SQL
+64 -> https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions
+65 -> https://en.wikipedia.org/wiki/Berkeley_DB
+66 -> https://en.wikipedia.org/wiki/Embedded_database
+67 -> https://en.wikipedia.org/wiki/Oracle_Rdb
+68 -> https://en.wikipedia.org/wiki/OpenVMS
+69 -> https://en.wikipedia.org/wiki/Digital_Equipment_Corporation
+70 -> https://en.wikipedia.org/wiki/TimesTen
+71 -> https://en.wikipedia.org/wiki/Essbase
+72 -> https://en.wikipedia.org/wiki/Hyperion_Solutions
+73 -> https://en.wikipedia.org/wiki/Multidimensional_database
+74 -> https://en.wikipedia.org/wiki/MySQL
+75 -> https://en.wikipedia.org/wiki/GNU_General_Public_License
+76 -> https://en.wikipedia.org/wiki/MySQL_AB
+77 -> https://en.wikipedia.org/wiki/NoSQL
+78 -> https://en.wikipedia.org/wiki/Middleware
+79 -> https://en.wikipedia.org/wiki/Application_server
+80 -> https://en.wikipedia.org/wiki/System_integration
+81 -> https://en.wikipedia.org/wiki/Business_process_management
+82 -> https://en.wikipedia.org/wiki/Content_management
+83 -> https://en.wikipedia.org/wiki/Identity_management
+84 -> https://en.wikipedia.org/wiki/Business_intelligence
+85 -> https://en.wikipedia.org/wiki/Enterprise_search
+86 -> https://en.wikipedia.org/wiki/Content_management_systems
+87 -> https://en.wikipedia.org/wiki/Oracle_Beehive
+88 -> https://en.wikipedia.org/wiki/Collaboration_software
+89 -> https://en.wikipedia.org/wiki/Team
+90 -> https://en.wikipedia.org/wiki/Wiki
+91 -> https://en.wikipedia.org/wiki/Software_as_a_service
+92 -> https://en.wikipedia.org/wiki/Business_application
+93 -> https://en.wikipedia.org/wiki/Oracle_E-Business_Suite
+94 -> https://en.wikipedia.org/wiki/Human_Resource_Management_Systems
+95 -> https://en.wikipedia.org/wiki/Vertical_market
+96 -> https://en.wikipedia.org/wiki/Oracle_Fusion_Applications
+97 -> https://en.wikipedia.org/wiki/Business
+98 -> https://en.wikipedia.org/wiki/Wikipedia:Verifiability
+99 -> https://en.wikipedia.org/wiki/PeopleSoft
+The resulting matrix:
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 
+1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+1 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 1 0 1 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 0 1 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 0 1 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 1 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 
+1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 1 0 0 1 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 1 0 1 1 0 1 0 1 1 0 0 1 0 1 0 0 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 1 1 0 1 0 1 0 1 0 0 1 1 1 0 1 0 0 0 1 1 0 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 1 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 1 1 0 1 1 0 1 1 1 0 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 0 1 0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 1 1 1 0 1 0 1 1 0 1 1 0 0 0 0 0 0 1 0 0 1 1 0 0 1 1 0 1 1 1 0 1 1 0 0 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 0 1 1 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 1 1 1 0 1 1 0 0 1 1 0 0 1 0 0 0 0 1 0 1 0 0 0 1 1 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 0 1 0 0 1 1 1 0 1 1 0 0 0 1 0 0 0 1 0 1 0 0 0 1 1 1 0 0 1 1 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 
+1 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 1 1 1 1 0 1 1 1 1 
+1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 1 1 0 0 1 1 0 1 
+1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 1 1 0 1 1 1 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 1 1 1 0 1 1 1 0 1 0 0 0 0 0 0 1 1 1 1 0 0 1 1 0 0 1 1 0 1 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 
+1 0 0 0 0 1 0 0 0 1 0 1 1 1 0 0 1 0 1 0 1 1 0 1 0 1 0 1 1 0 0 0 1 1 1 0 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 1 0 0 1 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 1 0 1 0 1 1 0 1 0 1 1 1 1 0 1 0 0 0 1 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 1 1 0 1 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 1 0 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 1 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 1 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 1 0 0 1 1 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 1 0 1 1 1 0 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 1 1 0 0 0 0 0 0 1 1 0 0 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 0 1 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 1 1 0 1 0 0 0 1 0 
+1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 1 0 0 0 0 0 1 1 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 
+1 0 0 0 1 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 1 1 1 0 0 0 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0 1 0 1 0 1 1 0 
+1 0 0 0 1 1 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 0 0 0 1 0 0 0 0 1 1 1 0 1 0 1 0 0 0 1 0 0 0 0 1 0 1 0 0 1 1 1 1 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 1 1 0 1 1 1 0 0 0 0 0 0 1 1 1 
+1 0 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 1 1 0 1 0 0 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 0 1 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 1 
+
+
+Process finished with exit code 0
