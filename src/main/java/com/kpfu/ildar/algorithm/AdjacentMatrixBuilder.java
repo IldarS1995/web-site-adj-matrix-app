@@ -40,8 +40,7 @@ public class AdjacentMatrixBuilder {
                     i, nextPage.getFullUrl(), retrievedPages.size());
             List<Integer> pagesIndices = putToTheWebPageList(retrievedPages);
             for (Integer retrievedPageIndex : pagesIndices) {
-                if (retrievedPageIndex != -1) {
-                    //we might not have added a page because the list is fully loaded
+                if (retrievedPageIndex != -1) { //we might not have added a page because the list is fully loaded
                     webPageMatrix.setConnection(i, retrievedPageIndex);
                 }
             }
